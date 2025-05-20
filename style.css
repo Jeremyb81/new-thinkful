@@ -72,6 +72,22 @@ footer {
 }
 
 /* Other page elements */
+.intro-container {
+  display: flex;
+  align-items: flex-start; /* Aligns image and text at the top */
+  gap: 20px; /* Spacing between image and text */
+}
+
+.image-wrapper img.image-circle {
+  width: 150px; /* or any size you prefer */
+  height: auto;
+  border-radius: 50%; /* Makes it circular */
+}
+
+.text-wrapper {
+  max-width: 600px;
+}
+
 hr {
   border: 1px solid black;
 }
